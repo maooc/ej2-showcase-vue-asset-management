@@ -248,7 +248,7 @@ provide('grid', [Edit, Group, Filter, Page, Selection, CommandColumn, Toolbar]);
 }
 
 .e-grid .e-rowcell.e-unboundcell.row-approve {
-    background-image: url('../assets/Approve.svg');
+    background-image: url('/public/assets/Approve.svg');
     background-repeat: no-repeat;
     background-position-y: center;
 }
@@ -260,7 +260,7 @@ provide('grid', [Edit, Group, Filter, Page, Selection, CommandColumn, Toolbar]);
     font-size: 13px;
 }
 .e-grid .e-rowcell.e-unboundcell.row-reject {
-    background-image: url('../assets/Reject.svg');
+    background-image: url('/public/assets/Reject.svg');
     background-repeat: no-repeat;
     background-position-y: center;
 }

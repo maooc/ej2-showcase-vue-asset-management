@@ -10,7 +10,7 @@
                 <div class="app-title-device" v-show="isDevice">
                     <h1 class="title-logo"></h1>
                 </div>
-                <img id="profile-img" src="./assets/Avatar_Male.svg" v-on:click="AccountMenu()" >
+                <img id="profile-img" src="../public/assets/Avatar_Male.svg" v-on:click="AccountMenu()" >
                 <div id="account-context" v-show="logoutPopup" >
                     <ejs-listview id="account" :dataSource='accountList' :closeOnDocumentClick='true' :select="AccountMenu" :fields='fields' showIcon='true'></ejs-listview>
                 </div>
@@ -269,11 +269,11 @@ h3 {
 }
 .profile {
     background-repeat: no-repeat;
-    background-image: url('./assets/Profile.svg');
+    background-image: url('../public/assets/Profile.svg');
 }
 .logout {
     background-repeat: no-repeat;
-    background-image: url('./assets/Logout.svg');
+    background-image: url('../public/assets/Logout.svg');
 }
 div#account {
     text-align: left;
@@ -318,7 +318,7 @@ body {
 }
 .title-logo {
     height: 20px;
-    background: url('./assets/asset-management-logo.png') no-repeat center;
+    background: url('../public/assets/asset-management-logo.png') no-repeat center;
     margin: 0;
 }
 .app-title-device {
@@ -332,7 +332,7 @@ body {
   height: 60px;
   /* border-bottom: solid 1px darkgray; */
     background-repeat: no-repeat;
-    background-image: url('./assets/Line.png');
+    background-image: url('../public/assets/Line.png');
     background-position: bottom;
 }
 .sb-content-tab #wrapper {
