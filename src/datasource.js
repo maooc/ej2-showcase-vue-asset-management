@@ -711,7 +711,7 @@ export let softwareData = [
         'Vendor': 'Microsoft',
         'LicenseType': 'Free',
         'LicenseCount': 900,
-        'DOP': '',
+        'DOP': new Date('04/12/2023'),
         'ExpiredOn': '',
         'Category': 'Development',
         'Note': 'Remarks are noted'
@@ -750,7 +750,7 @@ export let softwareData = [
         'Vendor': '',
         'LicenseType': 'Free',
         'LicenseCount': 50,
-        'DOP': '',
+        'DOP': new Date('05/10/2023'),
         'ExpiredOn': '',
         'Category': 'Common',
         'Note': 'Remarks are noted'

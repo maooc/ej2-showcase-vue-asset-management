@@ -32,7 +32,7 @@
 
 <template>
 <div class="list-temp" >
-<div class="e-avatar e-avatar-small e-avatar-circle list-img" :style="{ background: 'url(' + require('@/' + data.ImgSrc) + ') no-repeat center', backgroundSize: bgSize, 'vertical-align': 'middle'}"></div>
+<div class="e-avatar e-avatar-small e-avatar-circle list-img" :style="{ background: 'url(' + data.ImgSrc + ') no-repeat center', backgroundSize: bgSize, 'vertical-align': 'middle'}"></div>
 <span id= "list-engineer">{{data.Employee}}</span>
 <span id="list-timeStamp" class="sf-icon-timer" >{{data.TimeStamp}}</span>
 <p id="list-message">{{data.Message}}</p>
